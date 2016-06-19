@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<h2>Delete fields </h2>
+<h2>Edit field </h2>
 
 @if (Session::has('message'))
     <div class="alert alert-info">{{ Session::get('message') }}</div>
